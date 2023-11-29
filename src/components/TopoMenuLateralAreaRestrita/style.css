@@ -1,0 +1,58 @@
+.topo-menu-lateral-area-restrita {
+    width: 80%;
+    height: 3.2em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #bdc3c7;
+}
+
+.topo-menu-lateral-area-restrita__container-btn-perfil-sair {
+    display: flex;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.topo-menu-lateral-area-restrita__container-btn-perfil-sair__foto-usuario-logado {
+    width: 1.5em;
+}
+
+.topo-menu-lateral-area-restrita__container-btn-perfil-sair__btn-expandir-menu {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.topo-menu-lateral-area-restrita__sub-menu {
+    position: fixed;
+    top: 3em;
+    right: 1em;
+    width: 5em;
+    padding: 1em;
+    background-color: #ffffff;
+    border: solid 1px #bdc3c7;
+    box-shadow: 0 0 2px #bdc3c7;
+}
+
+.topo-menu-lateral-area-restrita__sub-menu__lista {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo-menu-lateral-area-restrita__sub-menu__lista__item {
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+.topo-menu-lateral-area-restrita__sub-menu__lista__item__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}

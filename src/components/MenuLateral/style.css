@@ -1,0 +1,136 @@
+.menu-lateral {
+    width: 20%;
+    height: 100vh;
+    background-color: #0B1F52;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.menu-lateral__logo {
+    width: 100%;
+}
+
+.menu-lateral__nav {
+    width: 100%;
+}
+
+.menu-lateral__nav__lista {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-lateral__nav__lista__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.8rem 1.2rem;
+    box-sizing: border-box;
+    border-style: solid;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #08153C;
+}
+
+.menu-lateral__nav__lista__item:last-child {
+    border-bottom: solid 1px #08153C;
+}
+
+.menu-lateral__nav__lista__item__link {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.menu-lateral__nav__lista__item__titulo-sub-menu {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-lateral__nav__lista__item__titulo-sub-menu span {
+    margin-right: 1em;
+}
+
+.menu-lateral__nav__lista__item__sub-menu {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6em;
+    margin-top: 0.5em;
+    background-color: #08153C;
+    display: none;
+}
+
+.menu-lateral__nav__lista__item__sub-menu.ativo {
+    display: block;
+}
+
+.menu-lateral__nav__lista__item__sub-menu__lista {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral__nav__lista__item__sub-menu__lista__item {
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+.menu-lateral__nav__lista__item__sub-menu__lista__item__link {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-lateral__btn-sair {
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    background-color: #d63031;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+
+    .menu-lateral__logo {
+        display: none;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .menu-lateral__nav__lista__item {
+        justify-content: center;
+        padding: 1.5em;
+    }
+
+    .menu-lateral__nav__lista__item__link,
+    .menu-lateral__nav__lista__item__titulo-sub-menu {
+        font-size: 1.3rem;
+    }
+
+}

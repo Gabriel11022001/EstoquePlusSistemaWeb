@@ -1,0 +1,17 @@
+:root {
+    --cor-primaria: #0B1F52,
+    --cor-secundaria: #55FFCC
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-area-restrita {
+
+}
+
+.container-area-restrita__secao {
+    
+}
