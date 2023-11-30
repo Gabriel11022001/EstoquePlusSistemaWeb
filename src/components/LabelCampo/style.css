@@ -1,0 +1,11 @@
+.label-campo {
+    font-size: 1rem;
+}
+
+.label-campo__nome-campo {
+    color: #000000;
+}
+
+.label-campo__obrigatorio {
+    color: red;
+}

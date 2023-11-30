@@ -1,0 +1,98 @@
+.tela-login {
+    background-color: #0B1F52;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.tela-login__container-lado-esquerdo {
+    width: 60%;
+    height: 100%;
+}
+
+.tela-login__container-lado-esquerdo__foto-estoque {
+    width: 100%;
+    height: 100%;
+}
+
+.tela-login__container-lado-direito {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela-login__container-lado-direito__container-login {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+.tela-login__container-lado-direito__container-login__logo {
+    width: 13em;
+}
+
+.tela-login__container-lado-direito__container-login__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.tela-login__container-lado-direito__container-login__form__grupo {
+    width: 100%;
+    margin: 1em 0;
+    box-sizing: border-box;
+}
+
+.tela-login__container-lado-direito__container-login__form__grupo__campo {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 0.5em;
+    color: #ffffff;
+    font-size: 1rem;
+    border-bottom: solid 2px #ffffff;
+}
+
+.tela-login__container-lado-direito__container-login__form__grupo__campo::placeholder {
+    color: #ffffff;
+}
+
+.tela-login__container-lado-direito__container-login__form__btn-entrar {
+    font-weight: bold;
+    width: 100%;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #a4b0be;
+    background-color: #dfe4ea;
+    border: none;
+    cursor: not-allowed;
+}
+
+.tela-login__container-lado-direito__container-login__form__btn-entrar.ativo {
+    color: #000000;
+    cursor: pointer;
+    background-color: #55FFCC;
+}
+
+.tela-login__container-lado-direito__container-login__link-cadastrarse {
+    color: #ffffff;
+    margin-top: 1.3em;
+}
+
+.tela-login__container-lado-direito__container-login__link-cadastrarse > a {
+    color: #55FFCC;
+}

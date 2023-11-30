@@ -7,6 +7,8 @@ import GestaoCategoria from './views/GestaoCategoria';
 import './reset.css';
 import './estilos-base.css';
 import './tabelas.css';
+import Login from './views/Login';
+import CadastroCategoria from './views/CadastroCategoria';
 
 const router = createBrowserRouter([
     {
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
     {
         path: '/categorias',
         element: <GestaoCategoria />
+    },
+    {
+        path: '/login',
+        element: <Login />
+    },
+    {
+        path: '/categoria/cadastrar',
+        element: <CadastroCategoria />
     }
 ]);
 

@@ -10,6 +10,7 @@
     box-sizing: border-box;
     background-color: #ffffff;
     box-shadow: 0 0 5px #bdc3c7;
+    z-index: 100;
 }
 
 .topo-menu-lateral-area-restrita__container-btn-perfil-sair {
@@ -38,6 +39,7 @@
     background-color: #ffffff;
     border: solid 1px #bdc3c7;
     box-shadow: 0 0 2px #bdc3c7;
+    display: none;
 }
 
 .topo-menu-lateral-area-restrita__sub-menu__lista {
@@ -55,4 +57,13 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+
+    .topo-menu-lateral-area-restrita {
+        width: 100%;
+        display: none;
+    }
+
 }

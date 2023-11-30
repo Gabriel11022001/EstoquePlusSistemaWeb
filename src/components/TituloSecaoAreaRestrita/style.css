@@ -1,0 +1,54 @@
+.titulo-secao-area-restrita {
+    width: 95%;
+    background-color: #ffffff;
+    position: relative;
+    top: 4em;
+    bottom: 1em;
+    right: 2.5%;
+    left: 2.5%;
+    box-sizing: border-box;
+    padding: 1em;
+    box-shadow: 0 0 5px #bdc3c7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-secao-area-restrita__texto-titulo {
+    color: #000000;
+    font-size: 2rem;
+}
+
+.titulo-secao-area-restrita__nav__lista {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-secao-area-restrita__nav__lista__item {
+    margin-right: 0.2em;
+}
+
+.titulo-secao-area-restrita__nav__lista__item__link {
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.titulo-secao-area-restrita__nav__lista__item__link:hover {
+    color: #0B1F52;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+
+    .titulo-secao-area-restrita {
+        top: 1em;
+    }
+
+    .titulo-secao-area-restrita {
+        flex-direction: column;
+    }
+
+    .titulo-secao-area-restrita__nav {
+        margin-top: 1em;
+    }
+
+}

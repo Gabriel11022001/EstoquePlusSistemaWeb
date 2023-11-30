@@ -8,6 +8,7 @@
     top: 0;
     left: 0;
     bottom: 0;
+    z-index: 100;
 }
 
 .menu-lateral__logo {
@@ -121,6 +122,7 @@
 
     .menu-lateral {
         width: 100%;
+        display: none;
     }
 
     .menu-lateral__nav__lista__item {

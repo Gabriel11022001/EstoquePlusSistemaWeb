@@ -1,0 +1,50 @@
+.tabela {
+    width: 100%;
+}
+
+.tabela__cabecalho {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tabela__corpo {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tabela__cabecalho__linha {
+    width: 100%;
+    color: #ffffff;
+    background-color: #0B1F52;
+}
+
+.tabela__cabecalho__linha__coluna {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.tabela__corpo__linha {
+}
+
+.tabela__corpo__linha__coluna {
+    padding: 0.5em;
+    text-align: center;
+    height: 100%;
+    border: solid 1px #bdc3c7;
+    border-collapse: collapse;
+}
+
+.coluna-status {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.ativo {
+    background-color: green;
+    border-color: green;
+}
+
+.inativo {
+    background-color: red;
+    border-color: red;
+}
